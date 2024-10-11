@@ -30,7 +30,7 @@ public class Main {
 //list class
 class InputList {
 
-  ArrayList<String> inputListValue = new ArrayList<String>();
+  ArrayList<String> inputListValue = new ArrayList<>();
   Scanner scList = new Scanner(System.in);
 
   InputList() {
@@ -57,7 +57,7 @@ class InputList {
 
 class InputSet {
 
-  Set<String> inputSetValue = new LinkedHashSet<String>();
+  Set<String> inputSetValue = new LinkedHashSet<>();
   Scanner scSet = new Scanner(System.in);
 
   InputSet() {
